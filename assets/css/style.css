@@ -7,4 +7,13 @@
 .sidebar {
     background-color: lightgray;
     padding: 10px, 10px, 10px, 10px;
+    margin-right: auto;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-container {
+    margin: 15px;
 }

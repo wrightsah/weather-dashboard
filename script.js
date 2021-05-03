@@ -4,8 +4,15 @@ console.log('JS file connected!');
 
 // api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
 
-// todo: get api call object to come through for current city
+const apikey = '6e36cdc576966b7b423bd4e21d54c38c'
 
-const weatherCall = api.openweathermap.org/data/2.5/forecast?id=524901&appid=6e36cdc576966b7b423bd4e21d54c38c
+let cityName = 'greensboro'
 
-console.log(weatherCall);
+// todo: get api url for current weather
+
+const currentWeatherURL = `api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apikey}`
+
+console.log(currentWeatherURL);
+
+// todo: get api url for 5-day forecast
+

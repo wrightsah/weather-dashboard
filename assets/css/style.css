@@ -1,0 +1,10 @@
+.header {
+    background: gray;
+    text-align: center;
+    color: white;
+}
+
+.sidebar {
+    background-color: lightgray;
+    padding: 10px, 10px, 10px, 10px;
+}
